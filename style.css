@@ -1,1 +1,80 @@
-img{max-width: 100px}
+/* This is a CSS file */
+
+/*Using * applies to everything on the page */
+
+*{font-family: Georgia, sans-serif;}
+
+/* img right size */
+
+figure img {
+
+	width: 600px;
+
+}
+
+/* caption to be gray */
+
+figcaption { 
+	font-size: 0.8em;
+	text-align: left;
+color: grey; 
+
+}
+
+/* republicans to be in red */
+
+.republican {
+	color : red
+}
+
+/* democrats to be in blue*/
+
+.Democrat {
+	color: blue;
+}
+
+/*Tell all the H1 tags to follow the below fonts*/
+
+h1 {
+	font-family: Georgia, Courier, monospace; text-transform: uppercase;
+}
+
+em {
+	color:green;
+}
+
+/*Tell all the emphasized text to be red*/
+
+em {
+	color:red;
+}
+
+/*Tell all the strong text to be pink*/
+
+strong {
+	color:pink
+}
+
+strong {
+	color : blue !important
+}
+
+strong{
+	color: violet;
+}
+
+/* Change intro text to 120% */
+
+.intro {font-size: 120%}
+
+p{
+	font-size: 75%;
+}
+
+/* tell footer to be gray*/
+
+h6 {
+	color: grey;
+}
+
+#special {background-color: yellow;}
